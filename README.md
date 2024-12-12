@@ -56,7 +56,7 @@ If you use a GPU environment, please first confirm that the cuda version is 11.6
 ```
 pip install -r requirements_gpu.txt
 ```
-
+将 `.conda\envs\Pangu-Weather\Library\bin` 中的 `zlib.dll` 改名为 `zlibwapi.dll`
 ## Global weather forecasting (inference) using the trained models
 
 #### Downloading trained models
